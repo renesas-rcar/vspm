@@ -65,6 +65,11 @@ enum {
 	VSPM_TYPE_VSP_CH2,
 	VSPM_TYPE_VSP_CH3,
 	VSPM_TYPE_VSP_CH4,
+	VSPM_TYPE_VSP_CH5,
+	VSPM_TYPE_VSP_CH6,
+	VSPM_TYPE_VSP_CH7,
+	VSPM_TYPE_VSP_CH8,
+	VSPM_TYPE_VSP_CH9,
 	/* FDP channel */
 	VSPM_TYPE_FDP_CH0,
 	VSPM_TYPE_FDP_CH1,
@@ -73,7 +78,7 @@ enum {
 };
 
 /* maximum IP number */
-#define VSPM_VSP_IP_MAX			(5)
+#define VSPM_VSP_IP_MAX			(10)
 #define VSPM_FDP_IP_MAX			(3)
 
 /* maximum channel number (per IP) */
