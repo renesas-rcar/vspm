@@ -79,6 +79,8 @@
 #define VSPM_USE_CH5		(0x00000020)
 #define VSPM_USE_CH6		(0x00000040)
 #define VSPM_USE_CH7		(0x00000080)
+#define VSPM_USE_CH8		(0x00000100)
+#define VSPM_USE_CH9		(0x00000200)
 
 /* operation mode */
 enum {
